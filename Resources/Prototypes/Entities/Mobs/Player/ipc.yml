@@ -142,7 +142,18 @@
     damage:
       types:
         Heat: 0.55 #per second, scales with pressure and other constants. Uniquely Heat instead of blunt, to simulate mechanical overheating in vacuum. IPCs are normally air cooled.
-
+##  - type: Bloodstream ##Disabled for now. Trying out the concept of IPC's being totally mechanical instead of relying on coolant. Will go to Shells instead.
+##    bloodlossDamage:
+##      types:
+##        Bloodloss: 0
+##    bloodlossHealDamage:
+##      types:
+##        Bloodloss: 0
+##    bloodRegenerationHunger: 0
+##    bloodRegenerationThirst: 0
+##    bloodReagent: IPCCoolant
+##    cauterizeMessage: null
+    
 - type: entity
   save: false
   name: Urist McPositronic
